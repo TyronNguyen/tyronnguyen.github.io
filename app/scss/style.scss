@@ -1,0 +1,45 @@
+@import "variables";
+@import "switcher";
+@import "cards";
+
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    background: var(--bg);
+    color: var(--text-white);
+    position: relative;
+    
+
+  }
+
+header {
+    display: flex;  //made 'Dark Mode'and button move to right of screen 
+    align-items: center;
+    justify-content: space-between;
+    
+        
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        color: var(--text-gray);
+        font-weight: 700;
+        margin-top: .19375rem;
+    }
+}
+
+.page-title {
+    padding-top: 5.3125rem;
+    padding-left: 18.125rem;
+    padding-bottom: 2.75rem;
+
+}

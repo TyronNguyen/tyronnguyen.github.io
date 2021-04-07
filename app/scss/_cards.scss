@@ -1,0 +1,60 @@
+.cards-parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; //made grid have 4 columns
+    grid-column-gap: 1.875rem;
+    padding-left: 18.125rem;
+    padding-right: 18.125rem;
+    padding-bottom: 6.25rem;
+   
+}
+
+.cards-child {
+    background: var(--card-bg);
+    border-radius: 5px;
+    text-align: center;
+    border-top: 5px;
+    
+    h1 {
+        color: $desaturated-blue;
+        font-size: 14px;
+        padding-top: 65px;
+        padding-bottom: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    h2 {
+        font-size: 50px;
+        padding-top: 15px;
+        padding-bottom: 5px;
+        
+    }
+    
+    h3 {
+        color: $desaturated-blue;
+        padding-top: 5px;
+        padding-bottom: 15px;
+        font-weight: normal;
+        letter-spacing: 3px;
+    }
+
+    h4 {
+        padding-top: 15px;
+        padding-bottom: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .up {
+        color: $lime-green;
+    }
+    
+    .down {
+        color: $bright-red;
+    }
+    
+}
