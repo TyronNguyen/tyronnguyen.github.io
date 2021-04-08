@@ -4,7 +4,7 @@
     grid-column-gap: 1.875rem;
     padding-left: 18.125rem;
     padding-right: 18.125rem;
-    padding-bottom: 50px;
+    padding-bottom: 3.125rem;
    
 }
 
@@ -17,8 +17,8 @@
     h1 {
         color: $desaturated-blue;
         font-size: 14px;
-        padding-top: 65px;
-        padding-bottom: 15px;
+        padding-top: 4.0625rem;
+        padding-bottom: 0.9375rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -26,22 +26,22 @@
 
     h2 {
         font-size: 50px;
-        padding-top: 15px;
-        padding-bottom: 5px;
+        padding-top: 0.9375rem;
+        padding-bottom: 0.3125rem;
         
     }
     
     h3 {
         color: $desaturated-blue;
-        padding-top: 5px;
-        padding-bottom: 15px;
+        padding-top: 0.3125rem;
+        padding-bottom: 0.9375rem;
         font-weight: normal;
         letter-spacing: 3px;
     }
 
     h4 {
-        padding-top: 15px;
-        padding-bottom: 35px;
+        padding-top: 0.9375rem;
+        padding-bottom: 2.1875rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -88,7 +88,7 @@ h5 {
     grid-row-gap: 20px;
     padding-left: 18.125rem;
     padding-right: 18.125rem;
-    padding-bottom: 6.25rem;
+    padding-bottom: 2.5rem;
    
     .cards-child2 {
         background: var(--card-bg);
