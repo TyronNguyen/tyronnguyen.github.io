@@ -4,7 +4,7 @@
     grid-column-gap: 1.875rem;
     padding-left: 18.125rem;
     padding-right: 18.125rem;
-    padding-bottom: 6.25rem;
+    padding-bottom: 50px;
    
 }
 
@@ -12,7 +12,7 @@
     background: var(--card-bg);
     border-radius: 5px;
     text-align: center;
-    border-top: 5px;
+    border-top: 5px solid;
     
     h1 {
         color: $desaturated-blue;
@@ -22,7 +22,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        
     }
 
     h2 {
@@ -46,7 +45,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-
     }
 
     .up {
@@ -56,5 +54,87 @@
     .down {
         color: $bright-red;
     }
+}
+
+.cards-child:nth-child(1) {
+    border-top-color: $facebook;
+}
+
+.cards-child:nth-child(2) {
+    border-top-color: $twitter;
+}
+
+.cards-child:nth-child(3) {
+    border-top-color: hsl(37, 97%, 70%);
+  }
+
+
+.cards-child:nth-child(4) {
+    border-top-color: $youtube;
+}
+
+
+
+h5 {
+    font-size: 20px;
+    padding-left: 18.125rem;
+    padding-bottom: 25px;
+}
+
+.cards-parent2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; //made grid have 4 columns
+    grid-column-gap: 1.875rem;
+    grid-row-gap: 20px;
+    padding-left: 18.125rem;
+    padding-right: 18.125rem;
+    padding-bottom: 6.25rem;
+   
+    .cards-child2 {
+        background: var(--card-bg);
+        border-radius: 5px;
+        //text-align: center;
+        border-top: 5px;
+
+        h6 {
+            font-size: 14px;
+            color: $desaturated-blue;
+            padding-top: 30px;
+            padding-left: 2.1875rem;
+            padding-right: 2.1875rem;
+            padding-bottom: 15px;
+        }
+        
+
+        h7 {
+            font-size: 30px;
+            font-weight: 700;
+            //padding-top: 15px;
+            //padding-left: 2.5rem;
+            //padding-right: 2.5rem;
+        }
+
+        h8 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+    .up {
+        color: $lime-green;
+    }
     
+    .down {
+        color: $bright-red;
+    }
+}
+
+.page-title2 { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2.1875rem;
+    padding-right: 2.1875rem;
+    padding-bottom: 25px;
 }

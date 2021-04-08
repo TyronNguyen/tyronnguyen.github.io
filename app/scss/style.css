@@ -77,14 +77,14 @@
   grid-column-gap: 1.875rem;
   padding-left: 18.125rem;
   padding-right: 18.125rem;
-  padding-bottom: 6.25rem;
+  padding-bottom: 50px;
 }
 
 .cards-child {
   background: var(--card-bg);
   border-radius: 5px;
   text-align: center;
-  border-top: 5px;
+  border-top: 5px solid;
 }
 
 .cards-child h1 {
@@ -137,6 +137,95 @@
 
 .cards-child .down {
   color: #dc414c;
+}
+
+.cards-child:nth-child(1) {
+  border-top-color: #198ff5;
+}
+
+.cards-child:nth-child(2) {
+  border-top-color: #1ca0f2;
+}
+
+.cards-child:nth-child(3) {
+  border-top-color: #fdc468;
+}
+
+.cards-child:nth-child(4) {
+  border-top-color: #c4032a;
+}
+
+h5 {
+  font-size: 20px;
+  padding-left: 18.125rem;
+  padding-bottom: 25px;
+}
+
+.cards-parent2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 1.875rem;
+  grid-row-gap: 20px;
+  padding-left: 18.125rem;
+  padding-right: 18.125rem;
+  padding-bottom: 6.25rem;
+}
+
+.cards-parent2 .cards-child2 {
+  background: var(--card-bg);
+  border-radius: 5px;
+  border-top: 5px;
+}
+
+.cards-parent2 .cards-child2 h6 {
+  font-size: 14px;
+  color: #8b97c6;
+  padding-top: 30px;
+  padding-left: 2.1875rem;
+  padding-right: 2.1875rem;
+  padding-bottom: 15px;
+}
+
+.cards-parent2 .cards-child2 h7 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.cards-parent2 .cards-child2 h8 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cards-parent2 .up {
+  color: #1db489;
+}
+
+.cards-parent2 .down {
+  color: #dc414c;
+}
+
+.page-title2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 2.1875rem;
+  padding-right: 2.1875rem;
+  padding-bottom: 25px;
 }
 
 *, *::before, *::after {
