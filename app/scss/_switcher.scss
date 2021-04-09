@@ -24,7 +24,7 @@
     display: inline-block;
     background: $toggle-dark;
     border-radius: 1rem;
-    width: 3.625rem;
+    width: 3.625rem; //size of switch
     height: 2rem;
     position: relative;
     vertical-align: middle;
@@ -38,11 +38,20 @@
       display: block;
       background: var(--top-bg);
       border-radius: 50%;
-      width: 1.5rem;
+      width: 1.5rem; //size of circle inside switch
       height: 1.5rem;
       position: absolute;
       top: 0.25rem;
       left: 0.25rem;
+      transition: left 0.25s; //transition time for button going left and right
+     
+    }
+
+    .toggle-checkbox:checked + & {
+      background: $toggle-light;
+      &:before {
+        left: 30px; //makes the button move to the right
+      }
     }
   }
   

@@ -62,6 +62,16 @@
   position: absolute;
   top: 0.25rem;
   left: 0.25rem;
+  -webkit-transition: left 0.25s;
+  transition: left 0.25s;
+}
+
+.toggle-checkbox:checked + .toggle-switch {
+  background: #aeb3cb;
+}
+
+.toggle-checkbox:checked + .toggle-switch:before {
+  left: 30px;
 }
 
 .toggle-checkbox {
